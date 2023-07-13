@@ -262,10 +262,13 @@ font-weight: 700;
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
   transform: scale(1.7);
   word-wrap: break-word;
+  transition: transform 0.5s ease;
 }
-
+.pentagon:hover{
+  transform: scale(1.3);
+}
+.pentagon
   
-
 .tonim{
     text-align:center;
     top: 100%;
