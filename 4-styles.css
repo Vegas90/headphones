@@ -356,29 +356,41 @@ margin-top: 0px;
 
   /*specific to phone*/
 
-  @media screen and (min-width: 768px) 
-  { 
-    
-    .header-container { 
-      display: flex; 
-      align-items: center; 
-      justify-content: space-between; 
-      padding-block-start: 20px; 
-    } 
+ /*specific to phone*/
 
-  
+ @media screen and (min-width: 768px) 
+ { 
+   
+   .header-container { 
+     display: flex; 
+     align-items: center; 
+     justify-content: space-between; 
+     padding-block-start: 20px; 
+   } 
 
-  .button-18{
-    margin-left: 45%;
-  }
+ 
 
-  .secondphase{
-    height: 1000px;
+ .button-18{
+   margin-left: 45%;
+ }
 
-  }
+ .button{
+   margin-left:0%
+ }
+ .secondphase{
+   height: 1000px;
+
+ }
 
 body{
 background-repeat: no-repeat;
 }
 
-  }
+.dark-items{
+ flex-direction: row;
+ justify-content: center;
+ display: flex;
+ align-items: center;
+}
+
+}
