@@ -1,4 +1,32 @@
-*, *:after, *:before { 
+.holberton_school-icon-ic_hearing:before { 
+  content: "\e909"; 
+} 
+
+.holberton_school-icon-ic_music:before { 
+  content: "\e90d"; 
+} 
+
+.holberton_school-icon-ic_sound:before { 
+  content: "\e90e"; 
+} 
+
+.holberton_school-icon-ic_video:before { 
+  content: "\e910"; 
+} 
+.holberton_school-icon-ic_twitter:before { 
+  content: "\e90f"; 
+} 
+.holberton_school-icon-ic_facebook:before { 
+  content: "\e908"; 
+} 
+.holberton_school-icon-ic_instagram:before { 
+  content: "\e90a"; 
+} 
+
+.icon { 
+color: var(--primary); 
+font-size: 6rem; 
+} *, *:after, *:before { 
     box-sizing: border-box; 
     margin: 0; 
     padding: 0; 
