@@ -223,10 +223,25 @@ margin-top: 0px;
   }
 
   .dark-items{
-    display: flex;
+    display:flex;
     flex-direction: row;
     justify-content: center;
     position:relative;
+    gap: 15%;
+    margin-top: 50px;
+    
+  }
+
+  .dark-items h1{
+padding-top: 30px;
+font-size: 35px;
+font-family: Source Sans Pro;
+font-weight: 700;
+
+  }
+  .textpoly{
+    font-size:8px;
+    padding-top: 10px;
   }
 
   .dark-items img{
@@ -237,13 +252,27 @@ margin-top: 0px;
 
 
   }
+
+
+  .pentagon {
+    width: 100px;
+  height: 100px;
+  background-color: #FF6565;
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  transform: scale(1.7);
+  word-wrap: break-word;
+}
+  
+
 .tonim{
-    text-align: center;
-    top: 50%;
+    text-align:center;
+    top: 100%;
     left: 50%;
+    margin-bottom:50%;
 }
 
-  .OurResultsSpeakFo{
+.OurResultsSpeakFo{
     text-align: center; 
     color: white; 
     font-size: 32px; 
@@ -353,6 +382,15 @@ margin-top: 0px;
   .footerBackground{
  justify-content: flex-end;
   }
+
+
+
+
+
+
+
+
+
 
   /*specific to phone*/
 
